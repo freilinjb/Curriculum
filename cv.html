@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .container {
+            background-color: #f2f2f2;
+            height: 100vh;
+        }
+
+        .derecha {
+            background-color: gray;
+
+        }
+
+        .nombre,
+        .apellido {
+            padding: 0;
+            font-size: 50px;
+            margin-top: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .linea {
+            border: 0.4px solid rgb(124, 124, 124);
+        }
+
+        hr {
+            background: #f2f2f2;
+            border: 0.5px solid rgba(138, 134, 134, 0.349);
+            padding: 0;
+            margin: 0;
+            height: 5px;
+            background-color: grey;
+        }
+
+        #nombre {
+            color: grey;
+        }
+
+        #ocupacion {
+            font-size: 25px;
+        }
+
+        .informacion, .formacion {
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        .experiencia { 
+            font-size: 25px;
+            margin-top: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .empresa > span{
+            color:rgb(124, 124, 124);
+            font-size: 25px;
+        }
+
+        .descripcion{
+            font-size: 15px;
+        }
+        
+        .fecha {
+            font-size: 15px;
+            padding: 0px;
+            margin: 0px
+        }
+
+        .contacto > p{
+            margin: 5px;
+            color: white;
+        }
+
+        .contacto > h3{
+            color: white;
+        }
+
+        div > .col-9 { 
+            color: white;
+        }
+
+        .ico:hover {
+            opacity: 0.7;
+        }
+
+        .ico { 
+            color: white;
+        }
+
+        .contenido > li {
+            color: white;
+            margin: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-4 shadow">
+        <div class="row">
+            <div class="col-4 derecha bg-secundary">
+                <div class="foto text-center my-5 rounded-circle bg-secundary">
+                    <img src="/foto.jpg" width="210px" height="250px">
+                </div>
+                <div class="informacion text-white shadow">
+                    <h3>Sobre mi</h3>
+                    <hr class="bg-white col-4" style="height: 1px;">
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, neque? Exercitationem dicta quasi, optio harum ipsa repudiandae asperiores nihil ipsum quas et totam voluptates quia nisi accusamus maiores commodi quibusdam.:</span>
+                </div>
+
+                <div class="informacion my-3">
+                    <div class="contacto">
+                        <h3>Datos generales </h3>
+                        <hr class="linea bg-white col-4">
+                        <div class="contenido">
+                            <li>Fecha de Nacimiento: <time>09/03/1995</time></li>
+                            <li>Cedula: 031-056977-44</li>
+                            <li>Nacionalidad: Dominicano</li>
+                            <li>Estado Civil: Soltero</li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="informacion my-3">
+                    <div class="contacto">
+                        <h3>Contacto </h3>
+                        <hr class="linea bg-white col-4">
+                        <div class="row">
+                            <div class="col-1 my-1">
+                                <p class="ico fa fa-fax align-left"></p>
+                                <p class="ico fa fa-google align-left"></p>
+                                <p class="ico fa fa-address-book align-left"></p>
+                                <p class="ico fa fa-facebook align-left"></p>
+                            </div>
+                            <div class="col-9">
+                                <p class="info">809-604-8119</p>
+                                <p>freilin@gmail.com</p>
+                                <p>La Herradura, Santiago</p>
+                                <p>freilinjb</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="nombre col-12">
+                    <span id="nombre">Freilin Jose</span> <span id="apellido">Jerez Brito</span>
+                    <hr class="linea col-5">
+                    <span id="ocupacion" class="text-muted">Estudiande de <span class="text-black">Ing. Informatica</span></span>
+                    <hr style="height: 0.5px;" class="shadow">
+                    <div class="experiencia">
+                        <p class="linea Puesto shadow p-1">EXPERIENCIA LABORAL</p>
+                        <div class="informacion shadow">
+                            <div class="empresa">
+                                <span>
+                                    <div class="col">
+                                        <P> <abbr title="EQUIPOS Y CONSTRUCCIONES DEL CIBAO">ECOCISA</abbr> | Soporte tecnico </P>
+                                        <p class="fecha"><time>2015 - 2019</time></p>
+                                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam eum hic inventore dolore corporis expedita soluta neque debitis obcaecati nisi facilis ea qui, vitae excepturi minima earum at tempora.</p>
+                                    </div>
+                                </span>
+                            </div>
+
+                            <div class="empresa">
+                                <span>
+                                    <div class="col">
+                                        <P> <abbr title="LED-VISION">LED-VISION</abbr> | Diseñador Grafico </P>
+                                        <p class="fecha">2012 - 2014</p>
+                                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam eum hic inventore dolore corporis expedita soluta neque debitis obcaecati nisi facilis ea qui, vitae excepturi minima earum at tempora.</p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+
+                        <p class="linea Puesto shadow my-3 p-1">FORMACION ACADEMICA</p>
+                        <div class="formacion bg-secundary shadow">
+                            <div class="empresa">
+                                <span>
+                                    <div class="col">
+                                        <P> <abbr title="UNIVERSIDAD TECNOLOGICA DE SANTIAGO">UTESA</abbr> | Ingenieria Informatica </P>
+                                        <p class="fecha">2015 - </p>
+                                        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam eum hic inventore dolore corporis expedita soluta neque debitis obcaecati nisi facilis ea qui, vitae excepturi minima earum at tempora.</p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
